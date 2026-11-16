@@ -21,3 +21,9 @@ Système de gestion académique (cours POO C++, TP 2).
 
     clang-format -i include/uincampus/*.hpp src/*.cpp app/*.cpp
     clang-tidy -p build/debug src/*.cpp app/*.cpp
+    
+## TP 4 : carnet de notes en mode menu
+
+    cmake --preset debug
+    cmake --build --preset debug
+    ./build/debug/uin-carnet
